@@ -23,6 +23,7 @@ pub mod SignInMod {
     }
 }
 
+pub mod db;
 pub mod models;
 pub mod parent;
 pub mod utils;
