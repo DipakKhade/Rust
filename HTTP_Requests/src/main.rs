@@ -22,3 +22,10 @@ async fn get_todos() -> Result<Vec<Todo>, Error> {
     let todos: Vec<Todo> = response.json().await?;
     Ok(todos)
 }
+
+async fn complete_todo() ->Result<T,E> {
+    let response = reqwest::get('').await?;
+
+    let res = response::json().await?;
+    Ok(res)
+}
