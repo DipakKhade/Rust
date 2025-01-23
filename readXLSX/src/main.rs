@@ -1,10 +1,9 @@
 use calamine::{Reader,open_workbook,Xlsx,Data};
-
+use std::collections::HashMap;
 
 
 
 fn main(){
-    println!("Hello, world!");
     read_xlsx();
 }
 
@@ -22,10 +21,15 @@ fn read_xlsx(){
         assert_eq!(non_empty_cells, range.rows()
             .flat_map(|r| r.iter().filter(|&c| c != &Data::Empty)).count());
 
-        //print all the rows
-    for row in range.rows(){
-        println!("{:?}",row);
-    }
+        //print all the rows as a vector of hashmaps
+        for row in range.rows() {
+            let row_map: HashMap<String, String> = row.iter()
+                .map(|cell| cell.to_string())  // Convert Data enum to String
+                .enumerate()  // Add index as key
+                .map(|(i, v)| (i.to_string(), v))  // Convert index to string
+                .collect();
+            println!("{:?}", row_map);
+        }
     }
 
     
