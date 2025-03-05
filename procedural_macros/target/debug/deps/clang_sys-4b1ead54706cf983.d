@@ -1,0 +1,14 @@
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/deps/libclang_sys-4b1ead54706cf983.rmeta: /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/macros.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/common.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/dynamic.rs
+
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/deps/libclang_sys-4b1ead54706cf983.rlib: /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/macros.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/common.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/dynamic.rs
+
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/deps/clang_sys-4b1ead54706cf983.d: /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/macros.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/common.rs /Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/dynamic.rs
+
+/Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs:
+/Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs:
+/Users/dipakkhade/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs:
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/macros.rs:
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/common.rs:
+/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out/dynamic.rs:
+
+# env-dep:OUT_DIR=/Users/dipakkhade/projects/Rust/procedural_macros/target/debug/build/clang-sys-b4360a31c9427d70/out
