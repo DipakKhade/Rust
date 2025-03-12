@@ -86,4 +86,21 @@ fn main() {
     println!("Final vec : {:?}", final_vec);
 
     let mut hash: HashMap<String, i32> = HashMap::new();
+
+    // string and string slicces
+    // String && &str
+    let mut name = String::from("dipak");
+    name.push_str(" khade");
+    println!("{}", name);
+
+    let sentence = String::from("my name is dipak and i am a good boy");
+    let first_word = get_first_word(&sentence).first();
+    match first_word {
+        Some(word) => println!("word id this == {}", *word),
+        None_ => print!("no word found"),
+    }
+}
+
+fn get_first_word(sen: &String) -> Vec<&str> {
+    return sen.split_inclusive(" ").collect();
 }

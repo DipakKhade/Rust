@@ -1,6 +1,7 @@
 use kafka::consumer::{Consumer,FetchOffset};
 use std::str;
 
+#[derive(Debug)]
 struct Topic_Msg{
     name:String,
     message:String
@@ -11,9 +12,12 @@ fn main(){
         name:String::from("payment"),
         message:String::from("payment success")
     };
-    
-}
 
+    println!("{:?}",msg);
+
+    
+
+}
 
 fn kafka_consumer(){
     let hosts:Vec<String> = vec![String::from("localhost:9092")];
