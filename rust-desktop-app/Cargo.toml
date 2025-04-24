@@ -1,7 +1,10 @@
 [package]
 name = "rust-desktop-app"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-druid = "0.7.0"
+druid = { version = "0.8.3", features = ["im"] }
+xlsxwriter = "0.6.0"
+chrono = "0.4.31"
+enigo = "0.1.0"
