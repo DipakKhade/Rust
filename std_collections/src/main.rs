@@ -1,3 +1,5 @@
+use std::collections::BTreeMap;
+
 fn main() {
     let mut v = std::collections::VecDeque::with_capacity(10);
     v.push_back(2);
@@ -26,5 +28,9 @@ fn main() {
             println!("new key -- {:?}", key)
         }
     }
+
+    // BTREE
+    let b: BTreeMap<String, String> = std::collections::BTreeMap::new();
+
 
 }
