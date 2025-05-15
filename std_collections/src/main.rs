@@ -8,4 +8,23 @@ fn main() {
     // v.back()
     // v.back_mut()
     // v.binary_search(x)
+
+    let mut  h = std::collections::HashMap::new();
+    h.insert("name", "dipak");
+    let insert_return = h.insert("name", "gaurav");
+    println!("hash map : {:?}", insert_return);
+    println!("hash map : {:?}", h);
+    
+    let entry_return = h.entry("name ");
+    println!("entry api return {:?}", entry_return); 
+
+    match entry_return {
+        std::collections::hash_map::Entry::Occupied(key) => {
+            println!("key already present --{:?}", key)
+        }
+        std::collections::hash_map::Entry::Vacant(key) => {
+            println!("new key -- {:?}", key)
+        }
+    }
+
 }
