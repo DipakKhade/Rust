@@ -30,7 +30,14 @@ fn main() {
     }
 
     // BTREE
-    let b: BTreeMap<String, String> = std::collections::BTreeMap::new();
+    let mut b: BTreeMap<String, String> = std::collections::BTreeMap::new();
+    b.insert("name".to_string(), "asd".to_string());
 
+    println!("b tree map value : {:?}", b);
+
+    match b.entry("email".to_string()) {
+        std::collections::btree_map::Entry::Occupied(x) => println!(" value present {:?}", x),
+        std::collections::btree_map::Entry::Vacant(x) => println!("key not found")
+    }
 
 }
