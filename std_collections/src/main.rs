@@ -1,5 +1,7 @@
 use std::collections::BTreeMap;
 
+pub mod topics;
+
 fn main() {
     let mut v = std::collections::VecDeque::with_capacity(10);
     v.push_back(2);
@@ -39,5 +41,14 @@ fn main() {
         std::collections::btree_map::Entry::Occupied(x) => println!(" value present {:?}", x),
         std::collections::btree_map::Entry::Vacant(x) => println!("key not found")
     }
+
+    //BINARY HEAP   
+    let mut bh = std::collections::BinaryHeap::new();
+    bh.push(3);
+    bh.push(5);
+    bh.push(2);
+    bh.push(7);
+    // binary heap is a max-heap
+    println!("binary heap : {:?}", bh);
 
 }
