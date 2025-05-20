@@ -37,6 +37,21 @@ macro_rules! match_tokens {
     };
 }
 
+macro_rules! repeat_name {
+    () => (
+        println!("empty macro call!")
+    );
+
+    ( $( $x: expr ), * ) => {
+        {
+            $(
+                println!("{:?}", $x);
+            )*
+        }
+    };
+}
+
+
 fn main() {
     println!(
         "{}\n{}\n{}\n",
@@ -50,4 +65,6 @@ fn main() {
         capture_then_match_tokens!(3 + 6),
         capture_then_match_tokens!(5),
     );
+
+    repeat_name!("dipak", 2)
 }
