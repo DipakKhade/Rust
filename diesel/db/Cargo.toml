@@ -1,0 +1,8 @@
+[package]
+name = "db"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+diesel = { version = "2.2.10", features = ["mysql"] }
+dotenv = "0.15.0"
