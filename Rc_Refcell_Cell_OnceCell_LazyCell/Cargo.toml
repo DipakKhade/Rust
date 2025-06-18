@@ -1,0 +1,6 @@
+[package]
+name = "Rc_Refcell_Cell_OnceCell_LazyCell"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
