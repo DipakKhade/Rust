@@ -33,4 +33,18 @@ fn main() {
     cell::Cell::set(&node1.id, 10);
     
     dbg!(node1);
+
+     let mut a = String::from("value");
+    let b = a;
+
+    // println!("{}",a);
+
+    let c = std::rc::Rc::new(String::from("value rc"));
+
+    let d = std::rc::Rc::clone(&c);
+
+    println!("c is {} and d is {}", c, d);
+    println!("reference count {}", std::rc::Rc::strong_count(&c));
+
 }
+
